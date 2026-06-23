@@ -1,11 +1,17 @@
+import Chai from "./chai"
 
 
 function App() {
  
 
   return (
-    <h1> Hello World by vidhi!!! </h1>
+    <>    
+     <Chai/>
+     <p>this is para</p>
+    </>
+ 
   )
 }
 
 export default App
+//<></> this is called fragmants in react and is used beacuse react return single tag
